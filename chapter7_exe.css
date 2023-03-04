@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.main-visual {
+  height: 400px;
+  background-image: url(img1-7exe/mv.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  object-fit: cover;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding:  0 80px;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.blog {
+  width: 840px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.blog-item {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: solid #f7f7f7;
+  font-size: 13px;
+}
